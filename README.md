@@ -20,14 +20,34 @@ Here are some ideas to get you started:
 ## 🛠️ Tech Stack
 
 ### 💻 Languages
+<p>
+  <img src="https://skillicons.dev/icons?i=c,cpp,cs,java,kotlin,swift,php,python,js,ts" />
+</p>
 
 ### 🌐 Frontend
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs" />
+</p>
 
 ### 🖥️ Backend
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,laravel" />
+</p>
 
 ### 🗄️ Database
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,dynamodb" />
+</p>
 
 ### ☁️ Infrastructure / Cloud
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,docker" />
+</p>
 
 ### 🔧 Tools
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,bitbucket,vscode,visualstudio,rider,goland,unity,notion,slack" />
+</p>
 
+### Others
+GitHub / SourceTree / Cursor / Warp / Rocket.Chat / 1Password / Xcode / Antigravity
