@@ -50,4 +50,4 @@ Here are some ideas to get you started:
 </p>
 
 ### Others
-GitHub / SourceTree / Cursor / Warp / Rocket.Chat / 1Password / Xcode / Antigravity
+GitHub / SourceTree / Cursor / Antigravity / Warp / Rocket.Chat / 1Password / Xcode
