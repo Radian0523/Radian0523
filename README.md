@@ -44,7 +44,7 @@ Here are some ideas to get you started:
   <img src="https://skillicons.dev/icons?i=aws,docker" />
 </p>
 
--->
+
 
 ### 🔧 Tools
 <p>
@@ -53,3 +53,4 @@ Here are some ideas to get you started:
 
 ### Others
 GitHub / SourceTree / Cursor / Antigravity / Warp / Rocket.Chat / 1Password / Xcode
+-->
