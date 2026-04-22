@@ -13,7 +13,7 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+
 
 ---
 
@@ -43,6 +43,8 @@ Here are some ideas to get you started:
 <p>
   <img src="https://skillicons.dev/icons?i=aws,docker" />
 </p>
+
+-->
 
 ### 🔧 Tools
 <p>
