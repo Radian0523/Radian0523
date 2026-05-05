@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="280" viewBox="0 0 800 280">
+  <defs>
+    <style>
+      @keyframes pulse {
+        0%, 100% { stroke-opacity: 0.4; }
+        50% { stroke-opacity: 1; }
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(12px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes shimmer {
+        0% { stop-color: #7B68EE; }
+        50% { stop-color: #00D4FF; }
+        100% { stop-color: #7B68EE; }
+      }
+
+      .card-border {
+        animation: pulse 3s ease-in-out infinite;
+      }
+      .line-1 { animation: fadeIn 0.6s ease-out 0.2s both; }
+      .line-2 { animation: fadeIn 0.6s ease-out 0.4s both; }
+      .line-3 { animation: fadeIn 0.6s ease-out 0.6s both; }
+      .line-4 { animation: fadeIn 0.6s ease-out 0.8s both; }
+
+      /* Dark mode (default) */
+      .card-bg { fill: #0d1117; }
+      .title-text { fill: #7B68EE; font-family: 'Segoe UI', 'Hiragino Kaku Gothic ProN', sans-serif; font-weight: 700; font-size: 20px; }
+      .subtitle-text { fill: #c9d1d9; font-family: 'Segoe UI', 'Hiragino Kaku Gothic ProN', sans-serif; font-weight: 400; font-size: 14px; }
+      .highlight-text { fill: #00D4FF; font-family: 'Segoe UI', 'Hiragino Kaku Gothic ProN', sans-serif; font-weight: 600; font-size: 15px; }
+      .label-text { fill: #8b949e; font-family: 'Segoe UI', 'Hiragino Kaku Gothic ProN', sans-serif; font-weight: 400; font-size: 13px; }
+      .pill-bg { fill: #161b22; stroke: #30363d; stroke-width: 1; rx: 12; }
+      .pill-text { fill: #c9d1d9; font-family: 'Segoe UI', 'Hiragino Kaku Gothic ProN', sans-serif; font-weight: 500; font-size: 12px; }
+      .metric-value { fill: #7B68EE; font-family: 'Segoe UI', 'Hiragino Kaku Gothic ProN', sans-serif; font-weight: 700; font-size: 22px; }
+      .metric-label { fill: #8b949e; font-family: 'Segoe UI', 'Hiragino Kaku Gothic ProN', sans-serif; font-weight: 400; font-size: 11px; }
+      .divider { stroke: #21262d; }
+
+      /* Light mode */
+      @media (prefers-color-scheme: light) {
+        .card-bg { fill: #ffffff; }
+        .title-text { fill: #5B4ACF; }
+        .subtitle-text { fill: #24292f; }
+        .highlight-text { fill: #0078D4; }
+        .label-text { fill: #57606a; }
+        .pill-bg { fill: #f6f8fa; stroke: #d0d7de; }
+        .pill-text { fill: #24292f; }
+        .metric-value { fill: #5B4ACF; }
+        .metric-label { fill: #57606a; }
+        .divider { stroke: #d0d7de; }
+      }
+    </style>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4B0082">
+        <animate attributeName="stop-color" values="#4B0082;#7B68EE;#00D4FF;#7B68EE;#4B0082" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00D4FF">
+        <animate attributeName="stop-color" values="#00D4FF;#4B0082;#7B68EE;#4B0082;#00D4FF" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Card background -->
+  <rect x="2" y="2" width="796" height="276" rx="16" class="card-bg"/>
+  <!-- Animated border -->
+  <rect x="2" y="2" width="796" height="276" rx="16" fill="none" stroke="url(#borderGrad)" stroke-width="2" class="card-border"/>
+
+  <!-- Line 1: University -->
+  <g class="line-1">
+    <text x="400" y="52" text-anchor="middle" class="title-text">工学部 電気電子工学科</text>
+    <text x="400" y="74" text-anchor="middle" class="subtitle-text">大学在学中</text>
+  </g>
+
+  <!-- Line 2: Specialty pills -->
+  <g class="line-2">
+    <rect x="108" y="92" width="110" height="28" class="pill-bg"/>
+    <text x="163" y="111" text-anchor="middle" class="pill-text">Game Dev</text>
+
+    <rect x="238" y="92" width="90" height="28" class="pill-bg"/>
+    <text x="283" y="111" text-anchor="middle" class="pill-text">Mobile</text>
+
+    <rect x="348" y="92" width="110" height="28" class="pill-bg"/>
+    <text x="403" y="111" text-anchor="middle" class="pill-text">Full-Stack</text>
+
+    <rect x="478" y="92" width="90" height="28" class="pill-bg"/>
+    <text x="523" y="111" text-anchor="middle" class="pill-text">Cloud</text>
+
+    <rect x="588" y="92" width="110" height="28" class="pill-bg"/>
+    <text x="643" y="111" text-anchor="middle" class="pill-text">AI / ML</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="80" y1="140" x2="720" y2="140" class="divider" stroke-width="1"/>
+
+  <!-- Line 3: Metrics -->
+  <g class="line-3">
+    <g transform="translate(200, 168)">
+      <text x="0" y="0" text-anchor="middle" class="metric-value">2932+</text>
+      <text x="0" y="20" text-anchor="middle" class="metric-label">Chrome ユーザー</text>
+    </g>
+    <g transform="translate(400, 168)">
+      <text x="0" y="0" text-anchor="middle" class="metric-value">11</text>
+      <text x="0" y="20" text-anchor="middle" class="metric-label">プログラミング言語</text>
+    </g>
+    <g transform="translate(600, 168)">
+      <text x="0" y="0" text-anchor="middle" class="metric-value">3</text>
+      <text x="0" y="20" text-anchor="middle" class="metric-label">社インターン</text>
+    </g>
+  </g>
+
+  <!-- Line 4: Tagline -->
+  <g class="line-4">
+    <text x="400" y="228" text-anchor="middle" class="highlight-text">実際に使われるプロダクトを作る</text>
+    <text x="400" y="250" text-anchor="middle" class="label-text">Chrome拡張  |  モバイルアプリ  |  ゲーム開発  |  クラウド基盤</text>
+  </g>
+</svg>
