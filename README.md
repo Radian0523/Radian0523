@@ -124,8 +124,8 @@
 
 | 期間 | 企業 | 担当内容 | 主要技術 |
 |---|---|---|---|
-| 2026/01 – 2026/04 | ゲーム会社 | 社内アセット管理ツール設計・開発（イベント駆動アーキテクチャ、LocalStack環境構築） | TypeScript, Python, AWS |
-| 2025/12 – 現在 | ITスタートアップ | 5種のプロジェクト（ダッシュボード・バックエンド・テスト設計・AI調査） | TypeScript, Next.js, PHP/Laravel |
+| 2026/01 –  | ゲーム会社 | 社内アセット管理ツール設計・開発（イベント駆動アーキテクチャ、LocalStack環境構築） | TypeScript, Python, AWS |
+| 2025/12 –  | ITスタートアップ | 5種のプロジェクト（ダッシュボード・バックエンド・テスト設計・AI調査） | TypeScript, Next.js, PHP/Laravel |
 | 2024/10 – 2025/11 | エンタメ系企業 | ゲーム開発、BLE通信、LINE Bot、Webアプリ | C, C#, Unity, Kotlin, Python |
 
 > [!TIP]
