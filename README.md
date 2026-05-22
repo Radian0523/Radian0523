@@ -70,7 +70,7 @@
     <tr>
       <td>📱</td>
       <td><b>KULMS+ Mobile</b></td>
-      <td>KULMS+のAndroid / iOSアプリ · <b>ローンチ初日 500+ users</b></td>
+      <td>KULMS+のAndroid / iOSアプリ · <b>教育カテゴリ iOS 57位 / Android 8位</b></td>
       <td>
         <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" height="22" />
         <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" height="22" />
