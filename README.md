@@ -97,6 +97,23 @@
         <a href="https://github.com/Radian0523/Velora">GitHub</a>
       </td>
     </tr>
+    <tr>
+      <td>🏎️</td>
+      <td><b>Revora</b></td>
+      <td>
+        自作ゲームエンジン製 3Dレーシングゲーム
+        <img src="https://img.shields.io/badge/Status-WIP-orange?style=for-the-badge" height="22" />
+      </td>
+      <td>
+        <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" height="22" />
+        <img src="https://img.shields.io/badge/Vulkan-AC162C?style=for-the-badge&logo=vulkan&logoColor=white" height="22" />
+        <img src="https://img.shields.io/badge/GLSL-5586A4?style=for-the-badge&logoColor=white" height="22" />
+        <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" height="22" />
+      </td>
+      <td>
+        <a href="https://github.com/Radian0523/Revora">GitHub</a>
+      </td>
+    </tr>
   </tbody>
 </table>
 
