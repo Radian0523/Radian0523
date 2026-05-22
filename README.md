@@ -28,7 +28,7 @@
 ## 👋 自己紹介
 
 - 🎓 工学部 電気電子工学科 在学中
-- 🚀 自作Chrome拡張 **KULMS+** が **2932人以上** に利用されています
+- 🚀 自作Chrome拡張 **KULMS+** が <img src="https://img.shields.io/chrome-web-store/users/akfadmompgbhncnocomalofhcihpejjb?style=flat-square&label=&color=4285F4" alt="users" height="20" /> 人以上に利用されています
 - 🎮 ゲーム開発・AIに強い関心あり
 - 🏢 ゲーム会社・スタートアップでの開発インターン経験あり
 
@@ -40,7 +40,7 @@
 ## 📱 個人プロジェクト
 
 > [!NOTE]
-> **KULMS+** は35+ リリースを重ね、2,932人以上のアクティブユーザーを持つChrome拡張機能です。
+> **KULMS+** は35+ リリースを重ね、<img src="https://img.shields.io/chrome-web-store/users/akfadmompgbhncnocomalofhcihpejjb?style=flat-square&label=&color=4285F4" alt="users" height="20" /> 人以上のアクティブユーザーを持つChrome拡張機能です。
 
 <table>
   <thead>
@@ -56,7 +56,7 @@
     <tr>
       <td>🧩</td>
       <td><b>KULMS+</b></td>
-      <td>大学LMSのChrome拡張機能 · <b>2932+ users</b></td>
+      <td>大学LMSのChrome拡張機能 · <img src="https://img.shields.io/chrome-web-store/users/akfadmompgbhncnocomalofhcihpejjb?style=flat-square&label=users&color=4285F4" alt="users" height="20" /></td>
       <td>
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="22" />
         <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="22" />
