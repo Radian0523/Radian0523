@@ -31,18 +31,32 @@ jobs:
           fi
           echo "num=$NUM" >> "$GITHUB_OUTPUT"
 
-      - name: Update README.md (typing SVG)
+          # Comma-formatted: 4000 -> 4,000
+          FORMATTED=$(printf "%'d" "$NUM")
+          echo "formatted=$FORMATTED" >> "$GITHUB_OUTPUT"
+
+      - name: Update README.md
         env:
           NUM: ${{ steps.fetch.outputs.num }}
+          FORMATTED: ${{ steps.fetch.outputs.formatted }}
         run: |
-          # Update the typing SVG URL: KULMS%2B+%7C+XXXX%2B+Users
+          # 1. Typing SVG URL: KULMS%2B+%7C+XXXX%2B+Users
           sed -i -E "s/KULMS%2B\+%7C\+[0-9]+%2B\+Users/KULMS%2B+%7C+${NUM}%2B+Users/g" README.md
+
+          # 2. "**N人以上**" pattern
+          sed -i -E "s/\*\*[0-9]+人以上\*\*/\*\*${NUM}人以上\*\*/g" README.md
+
+          # 3. "N,NNN人以上のアクティブユーザー" pattern
+          sed -i -E "s/[0-9,]+人以上のアクティブユーザー/${FORMATTED}人以上のアクティブユーザー/g" README.md
+
+          # 4. "<b>N+ users</b>" pattern
+          sed -i -E "s/<b>[0-9,]+\+ users<\/b>/<b>${NUM}+ users<\/b>/g" README.md
 
       - name: Update hero-banner.svg
         env:
           NUM: ${{ steps.fetch.outputs.num }}
         run: |
-          # Update the metric value in SVG: >XXXX+<
+          # 5. Metric value in SVG: >XXXX+<
           sed -i -E "s/(class=\"metric-value\">)[0-9,]+\+/\1${NUM}+/g" assets/hero-banner.svg
 
       - name: Commit and push if changed
