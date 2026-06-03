@@ -237,26 +237,6 @@
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" />
 </p>
 
-<!-- ==================== DIVIDER ==================== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4B0082,50:7B68EE,100:00D4FF&height=2" width="100%" />
-</p>
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Radian0523&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github&locale=ja" height="180" />
-  <img src="https://streak-stats.demolab.com/?user=Radian0523&theme=tokyonight&hide_border=true&locale=ja&date_format=Y%2Fn%2Fj" height="180" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Radian0523&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Radian0523&theme=tokyonight&no-bg=true&no-frame=true&column=7&margin-w=4&margin-h=4&rank=-SECRET,-UNKNOWN,-C" />
-</p>
-
 <!-- ==================== FOOTER ==================== -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4B0082,50:7B68EE,100:00D4FF&height=120&section=footer" width="100%" />
