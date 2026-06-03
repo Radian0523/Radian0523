@@ -25,24 +25,23 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4B0082,50:7B68EE,100:00D4FF&height=2" width="100%" />
 </p>
 
-## 👋 自己紹介
+## 自己紹介
 
-- 🎓 工学部 電気電子工学科 在学中
-- 🚀 自作Chrome拡張 **KULMS+** が **4000人以上** に利用されています
-- 🎮 ゲーム開発・AIに強い関心あり
-- 🏢 ゲーム会社・スタートアップでの開発インターン経験あり
+- 工学部 電気電子工学科 在学中
+- 自作Chrome拡張 **KULMS+** が **4000人以上** に利用されています
+- ゲーム開発・AIに強い関心あり
+- ゲーム会社・スタートアップでの開発インターン経験あり
 
 <!-- ==================== DIVIDER ==================== -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4B0082,50:7B68EE,100:00D4FF&height=2" width="100%" />
 </p>
 
-## 📱 個人プロジェクト
+## 個人プロジェクト
 
 <table>
   <thead>
     <tr>
-      <th></th>
       <th>プロジェクト</th>
       <th>概要</th>
       <th>主な技術</th>
@@ -51,7 +50,6 @@
   </thead>
   <tbody>
     <tr>
-      <td>🧩</td>
       <td><b>KULMS+</b></td>
       <td>大学LMSのChrome拡張機能 · <b>4000+ users</b></td>
       <td>
@@ -65,7 +63,6 @@
       </td>
     </tr>
     <tr>
-      <td>📱</td>
       <td><b>KULMS+ Mobile</b></td>
       <td>KULMS+のAndroid / iOSアプリ · <b>教育カテゴリ iOS 57位 / Android 8位</b></td>
       <td>
@@ -80,7 +77,6 @@
       </td>
     </tr>
     <tr>
-      <td>🎮</td>
       <td><b>Velora</b></td>
       <td>
         3D FPS シューティングゲーム
@@ -95,7 +91,6 @@
       </td>
     </tr>
     <tr>
-      <td>🏎️</td>
       <td><b>Revora</b></td>
       <td>
         自作ゲームエンジン製 3Dレーシングゲーム
@@ -119,7 +114,7 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4B0082,50:7B68EE,100:00D4FF&height=2" width="100%" />
 </p>
 
-## 👥 チームプロジェクト
+## チームプロジェクト
 
 | プロジェクト | チーム規模 | 概要 | 技術 |
 |---|---|---|---|
@@ -134,7 +129,7 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4B0082,50:7B68EE,100:00D4FF&height=2" width="100%" />
 </p>
 
-## 💼 インターン経歴
+## インターン経歴
 
 | 期間 | 企業 | 担当内容 | 主要技術 |
 |---|---|---|---|
@@ -147,11 +142,11 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4B0082,50:7B68EE,100:00D4FF&height=2" width="100%" />
 </p>
 
-## 🛠️ スキルセット
+## スキルセット
 
 業務経験・個人開発での実使用経験を基準に掲載しています。
 
-**💻 言語**
+**言語**
 
 <p align="center">
   <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" />
@@ -167,14 +162,14 @@
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
 </p>
 
-**🎮 ゲーム開発**
+**ゲーム開発**
 
 <p align="center">
   <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" />
   <img src="https://img.shields.io/badge/Generalplus%20SDK-C言語-555555?style=for-the-badge" />
 </p>
 
-**📱 モバイル**
+**モバイル**
 
 <p align="center">
   <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white" />
@@ -182,7 +177,7 @@
   <img src="https://img.shields.io/badge/SwiftUI-000000?style=for-the-badge&logo=swift&logoColor=white" />
 </p>
 
-**🌐 Web フロントエンド**
+**Web フロントエンド**
 
 <p align="center">
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
@@ -194,14 +189,14 @@
   <img src="https://img.shields.io/badge/Chrome%20Extensions%20MV3-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" />
 </p>
 
-**🖥️ Web バックエンド**
+**Web バックエンド**
 
 <p align="center">
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
 </p>
 
-**☁️ インフラ / クラウド**
+**インフラ / クラウド**
 
 <p align="center">
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" />
@@ -219,7 +214,7 @@
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
 </p>
 
-**🗄️ データベース**
+**データベース**
 
 <p align="center">
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
@@ -227,7 +222,7 @@
   <img src="https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white" />
 </p>
 
-**🔧 ツール**
+**ツール**
 
 <p align="center">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
