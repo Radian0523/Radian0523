@@ -91,7 +91,7 @@
       </td>
     </tr>
     <tr>
-      <td><b>Revora</b></td>
+      <!-- <td><b>Revora</b></td>
       <td>
         自作ゲームエンジン製 3Dレーシングゲーム
         <img src="https://img.shields.io/badge/Status-WIP-orange?style=for-the-badge" height="22" />
@@ -104,7 +104,7 @@
       </td>
       <td>
         <a href="https://github.com/Radian0523/Revora">GitHub</a>
-      </td>
+      </td> -->
     </tr>
   </tbody>
 </table>
