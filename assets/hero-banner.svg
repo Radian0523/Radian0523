@@ -94,7 +94,7 @@
   <!-- Line 3: Metrics -->
   <g class="line-3">
     <g transform="translate(200, 168)">
-      <text x="0" y="0" text-anchor="middle" class="metric-value">3000+</text>
+      <text x="0" y="0" text-anchor="middle" class="metric-value">4000+</text>
       <text x="0" y="20" text-anchor="middle" class="metric-label">Chrome ユーザー</text>
     </g>
     <g transform="translate(400, 168)">
