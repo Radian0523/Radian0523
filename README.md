@@ -5,7 +5,7 @@
 
 <!-- ==================== TYPING SVG ==================== -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=7B68EE&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Daichi+Onishi+%F0%9F%91%8B;KULMS%2B+%7C+3000%2B+Users+%F0%9F%9A%80;Game+Dev+%7C+Mobile+%7C+Full-Stack" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=7B68EE&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Daichi+Onishi+%F0%9F%91%8B;KULMS%2B+%7C+4000%2B+Users+%F0%9F%9A%80;Game+Dev+%7C+Mobile+%7C+Full-Stack" alt="Typing SVG" />
 </p>
 
 <!-- ==================== METRICS BADGES ==================== -->
@@ -28,7 +28,7 @@
 ## 自己紹介
 
 - 工学部 電気電子工学科 在学中
-- 自作Chrome拡張 **KULMS+** が **3000人以上** に利用されています
+- 自作Chrome拡張 **KULMS+** が **4000人以上** に利用されています
 - ゲーム開発・AIに強い関心あり
 - ゲーム会社・スタートアップでの開発インターン経験あり
 
@@ -51,7 +51,7 @@
   <tbody>
     <tr>
       <td><b>KULMS+</b></td>
-      <td>大学LMSのChrome拡張機能 · <b>3000+ users</b></td>
+      <td>大学LMSのChrome拡張機能 · <b>4000+ users</b></td>
       <td>
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="22" />
         <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="22" />
