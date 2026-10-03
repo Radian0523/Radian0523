@@ -102,7 +102,7 @@
       <text x="0" y="20" text-anchor="middle" class="metric-label">プログラミング言語</text>
     </g>
     <g transform="translate(600, 168)">
-      <text x="0" y="0" text-anchor="middle" class="metric-value">3</text>
+      <text x="0" y="0" text-anchor="middle" class="metric-value">4</text>
       <text x="0" y="20" text-anchor="middle" class="metric-label">社インターン</text>
     </g>
   </g>

@@ -30,7 +30,8 @@
 - 工学部 電気電子工学科 在学中
 - 自作Chrome拡張 **KULMS+** が **3000人以上** に利用されています
 - ゲーム開発・AIに強い関心あり
-- ゲーム会社・スタートアップでの開発インターン経験あり
+- ゲーム会社・スタートアップでの開発インターン経験あり（4社）
+- 学科のエレクトロニクスサマーキャンプで 2回生部門 優勝（ペア）・3回生部門 準優勝
 
 <!-- ==================== DIVIDER ==================== -->
 <p align="center">
@@ -122,7 +123,7 @@
 | みんなでゲームを作る2025 | 6人 | Joyconをオールに見立てた3Dボートゲーム（学園祭展示） | Unity, C# |
 | p-malware | 5人 | メタ的な敵が登場する3Dシューティング | Unity, C# |
 | NoOneKnowsME | 10人 | 2Dホラーゲーム | Unity |
-| p-victory | 8人 | ゲームプロジェクト | Unity |
+| p-victory | 8人 | 異世界の言語で書かれたノートを解読していく謎解きゲーム（開発中） | Unity |
 
 <!-- ==================== DIVIDER ==================== -->
 <p align="center">
@@ -133,9 +134,22 @@
 
 | 期間 | 企業 | 担当内容 | 主要技術 |
 |---|---|---|---|
-| 2026/01 –  | ゲーム会社 | 社内アセット管理ツール設計・開発（イベント駆動アーキテクチャ、LocalStack環境構築） | TypeScript, Python, AWS |
-| 2025/12 –  | ITスタートアップ | 5種のプロジェクト（ダッシュボード・バックエンド・テスト設計・AI調査） | TypeScript, Next.js, PHP/Laravel |
+| 2026/08 – 2026/09 | スタートアップ（トレカ取引サービス） | 就業型サマーインターン（3週間）。実プロダクトの課題整理・改善提案、データ連携の構成検討 | TypeScript, BigQuery, dbt, Redis |
+| 2026/01 –  | ゲーム会社 | 社内アセット管理ツール設計・開発（イベント駆動アーキテクチャ、LLMによるシナリオスクリプト自動生成、Terraform によるインフラ構築） | TypeScript, Python, AWS, Vertex AI |
+| 2025/12 –  | ITスタートアップ | 7種のプロジェクト（ダッシュボード・バックエンド・テスト設計・AI調査・Unity スマホゲーム） | TypeScript, Next.js, PHP/Laravel, Unity |
 | 2024/10 – 2025/11 | エンタメ系企業 | ゲーム開発、BLE通信、LINE Bot、Webアプリ | C, C#, Unity, Kotlin, Python |
+
+<!-- ==================== DIVIDER ==================== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4B0082,50:7B68EE,100:00D4FF&height=2" width="100%" />
+</p>
+
+## 受賞
+
+| 時期 | 大会 | 結果 |
+|---|---|---|
+| 2026/09 | エレクトロニクスサマーキャンプ 3回生部門（倒立振子の自動制御コンテスト） | 優秀賞（準優勝） |
+| 2025/09 | エレクトロニクスサマーキャンプ 2回生部門（Arduino ライントレーサ） | 最優秀賞（ペアで優勝） |
 
 <!-- ==================== DIVIDER ==================== -->
 <p align="center">
@@ -212,12 +226,16 @@
   <img src="https://img.shields.io/badge/LocalStack-4ADE80?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vertex%20AI%20%28Gemini%29-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" />
 </p>
 
 **データベース**
 
 <p align="center">
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Aurora%20DSQL-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white" />
 </p>
