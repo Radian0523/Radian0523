@@ -134,7 +134,7 @@
 
 | 期間 | 企業 | 担当内容 | 主要技術 |
 |---|---|---|---|
-| 2026/08 – 2026/09 | スタートアップ（トレカ取引サービス） | 就業型サマーインターン（3週間）。実プロダクトの課題整理・改善提案、データ連携の構成検討 | TypeScript, BigQuery, dbt, Redis |
+| 2026/08 – 2026/09 | スタートアップ | 就業型サマーインターン（3週間）。実プロダクトの課題整理・改善提案、データ連携の構成検討 | TypeScript, Next.js, NestJS, GraphQL, Prisma |
 | 2026/01 –  | ゲーム会社 | 社内アセット管理ツール設計・開発（イベント駆動アーキテクチャ、LLMによるシナリオスクリプト自動生成、Terraform によるインフラ構築） | TypeScript, Python, AWS, Vertex AI |
 | 2025/12 –  | ITスタートアップ | 7種のプロジェクト（ダッシュボード・バックエンド・テスト設計・AI調査・Unity スマホゲーム） | TypeScript, Next.js, PHP/Laravel, Unity |
 | 2024/10 – 2025/11 | エンタメ系企業 | ゲーム開発、BLE通信、LINE Bot、Webアプリ | C, C#, Unity, Kotlin, Python |
@@ -208,6 +208,9 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
 </p>
 
 **インフラ / クラウド**
