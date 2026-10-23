@@ -9,8 +9,10 @@
 </p>
 
 <!-- ==================== METRICS BADGES ==================== -->
-<!-- バッジは GitHub Actions が assets/badges/ に保存したもの。取得に失敗した日は前回の値のまま -->
+<!-- ユーザー数・フォロワー数は GitHub Actions が assets/badges/ に保存したもの。取得に失敗した日は前回の値のまま -->
+<!-- 閲覧数は表示のたびに数える必要があるため外部サービスを直接参照している -->
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Radian0523&color=7B68EE&style=for-the-badge&label=Profile+Views" alt="Profile Views" />
   <img src="assets/badges/kulms-users.svg" alt="KULMS+ Users" />
   <img src="assets/badges/followers.svg" alt="Followers" />
 </p>
