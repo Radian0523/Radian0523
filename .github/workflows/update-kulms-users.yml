@@ -17,8 +17,8 @@ jobs:
       - name: Fetch user count from Chrome Web Store
         id: fetch
         run: |
-          JSON=$(curl -sf "https://img.shields.io/chrome-web-store/users/akfadmompgbhncnocomalofhcihpejjb.json")
-          VALUE=$(echo "$JSON" | jq -r '.value')
+          JSON=$(curl -sf "https://img.shields.io/chrome-web-store/users/akfadmompgbhncnocomalofhcihpejjb.json" || true)
+          VALUE=$(echo "$JSON" | jq -r '.value // empty' 2>/dev/null || true)
           echo "raw=$VALUE" >> "$GITHUB_OUTPUT"
 
           # Parse abbreviated value: "4k" -> 4000, "12.5k" -> 12500, "1M" -> 1000000
@@ -29,6 +29,14 @@ jobs:
           else
             NUM=$(echo "$VALUE" | tr -d ', ')
           fi
+
+          # 取得できなかった場合は何も書き換えない（前回の値を残す）
+          if ! [[ "$NUM" =~ ^[0-9]+$ ]] || [ "$NUM" -eq 0 ]; then
+            echo "Failed to fetch user count (value: '$VALUE'). Skipping."
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "ok=true" >> "$GITHUB_OUTPUT"
           echo "num=$NUM" >> "$GITHUB_OUTPUT"
 
           # Comma-formatted: 4000 -> 4,000
@@ -36,6 +44,7 @@ jobs:
           echo "formatted=$FORMATTED" >> "$GITHUB_OUTPUT"
 
       - name: Update README.md
+        if: steps.fetch.outputs.ok == 'true'
         env:
           NUM: ${{ steps.fetch.outputs.num }}
           FORMATTED: ${{ steps.fetch.outputs.formatted }}
@@ -53,20 +62,49 @@ jobs:
           sed -i -E "s/<b>[0-9,]+\+ users<\/b>/<b>${NUM}+ users<\/b>/g" README.md
 
       - name: Update hero-banner.svg
+        if: steps.fetch.outputs.ok == 'true'
         env:
           NUM: ${{ steps.fetch.outputs.num }}
         run: |
           # 5. Metric value in SVG: >XXXX+<
           sed -i -E "s/(class=\"metric-value\">)[0-9,]+\+/\1${NUM}+/g" assets/hero-banner.svg
 
+      # バッジはリポジトリ内に保存し、README からは外部サービスを直接参照しない
+      # （外部が落ちていても壊れた画像が出ないようにするため）
+      - name: Update KULMS+ users badge
+        if: steps.fetch.outputs.ok == 'true'
+        env:
+          RAW: ${{ steps.fetch.outputs.raw }}
+        run: |
+          if curl -sf "https://img.shields.io/badge/KULMS%2B%20Users-${RAW}-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" -o /tmp/badge.svg \
+            && grep -q '^<svg' /tmp/badge.svg; then
+            mv /tmp/badge.svg assets/badges/kulms-users.svg
+          else
+            echo "Failed to render users badge. Keeping previous one."
+          fi
+
+      - name: Update followers badge
+        run: |
+          FOLLOWERS=$(curl -sf -H "Authorization: Bearer ${{ github.token }}" "https://api.github.com/users/${{ github.repository_owner }}" | jq -r '.followers // empty' || true)
+          if ! [[ "$FOLLOWERS" =~ ^[0-9]+$ ]]; then
+            echo "Failed to fetch followers. Keeping previous badge."
+            exit 0
+          fi
+          if curl -sf "https://img.shields.io/badge/Followers-${FOLLOWERS}-7B68EE?style=for-the-badge" -o /tmp/badge.svg \
+            && grep -q '^<svg' /tmp/badge.svg; then
+            mv /tmp/badge.svg assets/badges/followers.svg
+          else
+            echo "Failed to render followers badge. Keeping previous one."
+          fi
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/hero-banner.svg
+          git add README.md assets/hero-banner.svg assets/badges
           if git diff --staged --quiet; then
             echo "No changes detected"
           else
-            git commit -m "chore: update KULMS+ user count to ${{ steps.fetch.outputs.num }}"
+            git commit -m "chore: update KULMS+ user count and badges"
             git push
           fi

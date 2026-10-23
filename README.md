@@ -9,10 +9,10 @@
 </p>
 
 <!-- ==================== METRICS BADGES ==================== -->
+<!-- バッジは GitHub Actions が assets/badges/ に保存したもの。取得に失敗した日は前回の値のまま -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Radian0523&color=7B68EE&style=for-the-badge&label=Profile+Views" />
-  <img src="https://img.shields.io/chrome-web-store/users/akfadmompgbhncnocomalofhcihpejjb?style=for-the-badge&label=KULMS%2B+Users&color=4285F4&logo=googlechrome&logoColor=white" />
-  <img src="https://img.shields.io/github/followers/Radian0523?style=for-the-badge&color=7B68EE&label=Followers" />
+  <img src="assets/badges/kulms-users.svg" alt="KULMS+ Users" />
+  <img src="assets/badges/followers.svg" alt="Followers" />
 </p>
 
 <!-- ==================== HERO BANNER ==================== -->
