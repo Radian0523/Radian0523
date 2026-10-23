@@ -40,23 +40,75 @@
 
 ## 個人プロジェクト
 
-**KULMS+** — 大学LMSのChrome拡張機能 · <b>4000+ users</b> · [GitHub](https://github.com/Radian0523/kulms-extension) · [Store](https://chromewebstore.google.com/detail/kulms+/akfadmompgbhncnocomalofhcihpejjb)
-
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="22" /> <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="22" /> <img src="https://img.shields.io/badge/Chrome%20MV3-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" height="22" />
-
-**KULMS+ Mobile** — KULMS+のAndroid / iOSアプリ · **教育カテゴリ iOS 57位 / Android 8位** · [Android](https://github.com/Radian0523/kulms-android-webview) · [iOS](https://github.com/Radian0523/kulms-ios-webview)
-
-<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" height="22" /> <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" height="22" /> <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white" height="22" /> <img src="https://img.shields.io/badge/SwiftUI-000000?style=for-the-badge&logo=apple&logoColor=white" height="22" />
-
-**Velora** — 3D FPS シューティングゲーム（開発中） · [GitHub](https://github.com/Radian0523/Velora)
-
-<img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" height="22" /> <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" height="22" />
-
-<!--
-**Revora** — 自作ゲームエンジン製 3Dレーシングゲーム（開発中） · [GitHub](https://github.com/Radian0523/Revora)
-
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" height="22" /> <img src="https://img.shields.io/badge/Vulkan-AC162C?style=for-the-badge&logo=vulkan&logoColor=white" height="22" /> <img src="https://img.shields.io/badge/GLSL-5586A4?style=for-the-badge&logoColor=white" height="22" /> <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" height="22" />
--->
+<table>
+  <thead>
+    <tr>
+      <th>プロジェクト</th>
+      <th>概要</th>
+      <th>主な技術</th>
+      <th>リンク</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>KULMS+</b></td>
+      <td>大学LMSのChrome拡張機能 · <b>4000+ users</b></td>
+      <td>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="22" />
+        <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="22" />
+        <img src="https://img.shields.io/badge/Chrome%20MV3-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" height="22" />
+      </td>
+      <td>
+        <a href="https://github.com/Radian0523/kulms-extension">GitHub</a> ·
+        <a href="https://chromewebstore.google.com/detail/kulms+/akfadmompgbhncnocomalofhcihpejjb">Store</a>
+      </td>
+    </tr>
+    <tr>
+      <td><b>KULMS+ Mobile</b></td>
+      <td>KULMS+のAndroid / iOSアプリ · <b>教育カテゴリ iOS 57位 / Android 8位</b></td>
+      <td>
+        <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" height="22" />
+        <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" height="22" />
+        <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white" height="22" />
+        <img src="https://img.shields.io/badge/SwiftUI-000000?style=for-the-badge&logo=apple&logoColor=white" height="22" />
+      </td>
+      <td>
+        <a href="https://github.com/Radian0523/kulms-android-webview">Android</a> ·
+        <a href="https://github.com/Radian0523/kulms-ios-webview">iOS</a>
+      </td>
+    </tr>
+    <tr>
+      <td><b>Velora</b></td>
+      <td>
+        3D FPS シューティングゲーム
+        <img src="https://img.shields.io/badge/Status-WIP-orange?style=for-the-badge" height="22" />
+      </td>
+      <td>
+        <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" height="22" />
+        <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" height="22" />
+      </td>
+      <td>
+        <a href="https://github.com/Radian0523/Velora">GitHub</a>
+      </td>
+    </tr>
+    <tr>
+      <!-- <td><b>Revora</b></td>
+      <td>
+        自作ゲームエンジン製 3Dレーシングゲーム
+        <img src="https://img.shields.io/badge/Status-WIP-orange?style=for-the-badge" height="22" />
+      </td>
+      <td>
+        <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" height="22" />
+        <img src="https://img.shields.io/badge/Vulkan-AC162C?style=for-the-badge&logo=vulkan&logoColor=white" height="22" />
+        <img src="https://img.shields.io/badge/GLSL-5586A4?style=for-the-badge&logoColor=white" height="22" />
+        <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" height="22" />
+      </td>
+      <td>
+        <a href="https://github.com/Radian0523/Revora">GitHub</a>
+      </td> -->
+    </tr>
+  </tbody>
+</table>
 
 <!-- ==================== DIVIDER ==================== -->
 <p align="center">
@@ -65,11 +117,13 @@
 
 ## チームプロジェクト
 
-- **BitSummit Game Jam 2026**（9人）— 謎解き2Dゲーム（[BitSummit](https://bitsummit.org/) 出展） · Unity, C#
-- **みんなでゲームを作る2025**（6人）— Joyconをオールに見立てた3Dボートゲーム（学園祭展示） · Unity, C#
-- **p-malware**（5人）— メタ的な敵が登場する3Dシューティング · Unity, C#
-- **NoOneKnowsME**（10人）— 2Dホラーゲーム · Unity
-- **p-victory**（8人）— 異世界の言語で書かれたノートを解読していく謎解きゲーム（開発中） · Unity
+| プロジェクト | チーム規模 | 概要 | 技術 |
+|---|---|---|---|
+| BitSummit Game Jam 2026 | 9人 | 謎解き2Dゲーム（[BitSummit](https://bitsummit.org/) 出展） | Unity, C# |
+| みんなでゲームを作る2025 | 6人 | Joyconをオールに見立てた3Dボートゲーム（学園祭展示） | Unity, C# |
+| p-malware | 5人 | メタ的な敵が登場する3Dシューティング | Unity, C# |
+| NoOneKnowsME | 10人 | 2Dホラーゲーム | Unity |
+| p-victory | 8人 | 異世界の言語で書かれたノートを解読していく謎解きゲーム（開発中） | Unity |
 
 <!-- ==================== DIVIDER ==================== -->
 <p align="center">
@@ -78,10 +132,12 @@
 
 ## インターン経歴
 
-- **2026/08 – 2026/09　スタートアップ** — 就業型サマーインターン（3週間）。実プロダクトの課題整理・改善提案、データ連携の構成検討 · TypeScript, Next.js, NestJS, GraphQL, Prisma
-- **2026/01 –　ゲーム会社** — 社内アセット管理ツール設計・開発（イベント駆動アーキテクチャ、LLMによるシナリオスクリプト自動生成、Terraform によるインフラ構築） · TypeScript, Python, AWS, Vertex AI
-- **2025/12 –　ITスタートアップ** — 7種のプロジェクト（ダッシュボード・バックエンド・テスト設計・AI調査・Unity スマホゲーム） · TypeScript, Next.js, PHP/Laravel, Unity
-- **2024/10 – 2025/11　エンタメ系企業** — ゲーム開発、BLE通信、LINE Bot、Webアプリ · C, C#, Unity, Kotlin, Python
+| 期間 | 企業 | 担当内容 | 主要技術 |
+|---|---|---|---|
+| 2026/08 – 2026/09 | スタートアップ | 就業型サマーインターン（3週間）。実プロダクトの課題整理・改善提案、データ連携の構成検討 | TypeScript, Next.js, NestJS, GraphQL, Prisma |
+| 2026/01 –  | ゲーム会社 | 社内アセット管理ツール設計・開発（イベント駆動アーキテクチャ、LLMによるシナリオスクリプト自動生成、Terraform によるインフラ構築） | TypeScript, Python, AWS, Vertex AI |
+| 2025/12 –  | ITスタートアップ | 7種のプロジェクト（ダッシュボード・バックエンド・テスト設計・AI調査・Unity スマホゲーム） | TypeScript, Next.js, PHP/Laravel, Unity |
+| 2024/10 – 2025/11 | エンタメ系企業 | ゲーム開発、BLE通信、LINE Bot、Webアプリ | C, C#, Unity, Kotlin, Python |
 
 <!-- ==================== DIVIDER ==================== -->
 <p align="center">
@@ -90,8 +146,10 @@
 
 ## 受賞
 
-- **2026/09** エレクトロニクスサマーキャンプ 3回生部門（倒立振子の自動制御コンテスト） — **優秀賞（準優勝）**
-- **2025/09** エレクトロニクスサマーキャンプ 2回生部門（Arduino ライントレーサ） — **最優秀賞（ペアで優勝）**
+| 時期 | 大会 | 結果 |
+|---|---|---|
+| 2026/09 | エレクトロニクスサマーキャンプ 3回生部門（倒立振子の自動制御コンテスト） | 優秀賞（準優勝） |
+| 2025/09 | エレクトロニクスサマーキャンプ 2回生部門（Arduino ライントレーサ） | 最優秀賞（ペアで優勝） |
 
 <!-- ==================== DIVIDER ==================== -->
 <p align="center">
